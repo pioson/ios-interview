@@ -47,7 +47,6 @@
 
 - (UIView*)horizontalScrollView:(HorizontalTableView*)scrollView cellForIndex:(NSInteger)index{
     
-    
     UILabel* cell = (UILabel*)[scrollView dequeueCell];
     if (!cell){
         cell = [[UILabel alloc]init];
